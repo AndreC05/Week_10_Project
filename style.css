@@ -1,0 +1,17 @@
+body {
+  background-color: antiquewhite;
+}
+
+footer {
+  box-sizing: border-box;
+}
+footer button {
+  border: none;
+  color: grey;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+footer button:hover {
+  border: 3px solid ghostwhite;
+}
