@@ -1,4 +1,5 @@
 import rough from "roughjs";
+import Elevator from "elevator.js";
 
 const rc = rough.canvas(document.getElementById("canvas"));
 
@@ -8,3 +9,12 @@ rc.rectangle(140, 10, 100, 100, {
   fillStyle: "solid",
   roughness: 2,
 });
+
+//Elevator Button
+window.onload = function () {
+  const elevator = new Elevator({
+    element: document.getElementById("ElevatorBtn"),
+    mainAudio: "node_modules/elevator.js/demo/music/elevator.mp3",
+    endAudio: "node_modules/elevator.js/demo/music/ding.mp3",
+  });
+};
