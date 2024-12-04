@@ -3,34 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week_10</title>
+    <title>RoughJs Demo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
       <h2>RoughJs</h2>
-      <canvas id="canvas" width="1000" height="800"></canvas>
+      <canvas id="canvas1" width="400" height="140"></canvas>
       <h2>
         Notice how the same shapes change when the value of their roughness,
         bowing and strokewidth is changed!
       </h2>
+      <canvas id="canvas2" width="400" height="140"></canvas>
       <h2>
         Also when reloading the page the shapes drawing change again unless a
         seed value is provided to them!
       </h2>
-      <canvas id="canvas2" width="1000" height="500"></canvas>
-      <br />
+      <canvas id="canvas3" width="400" height="120"></canvas>
+      <h2>
+        Shapes can be combined. We can change things such as fill colour, style,
+        direction and density.
+      </h2>
+      <canvas id="canvas4" width="400" height="140"></canvas>
+      <p></p>
       <h2>
         SVG paths can be used to create custom shapes such as these arrows
       </h2>
-      <h2>
-        We can change things such as fill colour, style, direction and density.
-      </h2>
+      <svg id="svg1" width="400" height="160"></svg>
       <h2>
         The orange polygon has a set seed value. Notice how it stays the same on
         page refresh
       </h2>
-      <svg id="svg" width="1000" height="600"></svg>
+      <svg id="svg2" width="400" height="140"></svg>
       <script type="module" src="./app.js" defer></script>
       <script type="module" src="./shapes.js" defer></script>
       <script type="module" src="./svgs.js" defer></script>
