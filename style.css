@@ -1,17 +1,38 @@
 body {
   background-color: antiquewhite;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+main #title {
+  color: rgb(247, 95, 40);
+  font-size: 2rem;
+}
+
+main .canvas {
+  padding-bottom: 20px;
+}
+
+main button {
+  border: 2px solid;
+  color: sienna;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+main button:hover {
+  border: 2px solid ghostwhite;
 }
 
 footer {
   box-sizing: border-box;
 }
 footer button {
-  border: none;
+  border: 2px solid;
   color: grey;
   background-color: transparent;
   cursor: pointer;
 }
 
 footer button:hover {
-  border: 3px solid ghostwhite;
+  border: 2px solid ghostwhite;
 }
